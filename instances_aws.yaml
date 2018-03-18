@@ -1,0 +1,28 @@
+instances:
+  new_inst:
+    other_config: saa,
+    roles:
+      config: ''
+      config_database: ''
+      k8s_master: ''
+    vpc_subnet_id: asdf
+  sc:
+    other_config: ssdcas
+    roles:
+      config_database: ''
+      control: ''
+      k8s_master: ''
+    vpc_subnet_id: asd
+provider_config:
+  aws:
+    assign_public_ip: 'True'
+    ec2_access_key: sss
+    ec2_secret_key: sa
+    image: ami-337be65c
+    instance_type: t2.xlarge
+    key_pair: ansible-deployer
+    region: eu-central-1
+    ssh_private_key: /id_rsa
+    ssh_public_key: /id_rsa.pub
+    ssh_user: centos
+    volume_size: '50'

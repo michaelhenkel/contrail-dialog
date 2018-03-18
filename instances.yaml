@@ -1,0 +1,16 @@
+providers:
+  aws:
+    ec2_access_key:
+    ec2_secret_key:
+    ssh_public_key:
+    ssh_private_key:
+    ssh_user:
+    instance_type:
+    image:
+    region:
+    security_group:
+    vpc_subnet_id:
+    assign_public_ip:
+    volume_size:
+    key_pair:
+  gce:
